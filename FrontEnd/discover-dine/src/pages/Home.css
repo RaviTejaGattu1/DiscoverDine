@@ -1,0 +1,63 @@
+/* Home.css */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  height: 100vh; /* Full viewport height */
+  background-color: white; /* Background color */
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 40px; /* Space below welcome section */
+}
+
+.welcome-section h1 {
+  font-size: 2.5rem; /* Adjust size as needed */
+}
+
+.welcome-section h2 {
+  font-size: 1.5rem; /* Adjust size as needed */
+  color: #555; /* Optional: Different color for subtitle */
+}
+
+.user-type-section {
+  text-align: center;
+  border: 2px solid #cc9563; /* Border around the section */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  background-color: white; /* Background for the box */
+}
+
+.user-type-section p {
+  font-size: 1.2rem; /* Adjust font size as needed */
+  margin-bottom: 20px; /* Space below the paragraph */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
+}
+
+.user-button {
+  padding: 10px 20px; /* Padding inside buttons */
+  font-size: 1rem; /* Font size for buttons */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for buttons */
+  background-color: #3498db; /* Button background color */
+  color: white; /* Button text color */
+  cursor: pointer; /* Cursor pointer on hover */
+  transition: background-color 0.3s; /* Transition effect */
+}
+
+.user-button:hover {
+  background-color: #cc9563; /* Darker shade on hover */
+}
+
+.logo {
+  width: 100px;  /* Scale down to fit the container */
+  height: 100px; 
+}

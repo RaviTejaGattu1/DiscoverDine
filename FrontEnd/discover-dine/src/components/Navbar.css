@@ -1,0 +1,29 @@
+nav {
+    background-color: #333; /* Background color for the navbar */
+    padding: 10px; /* Padding around the navbar */
+  }
+  
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Use flexbox to align items horizontally */
+  }
+  
+  li {
+    margin-right: 20px; /* Space between the items */
+  }
+  
+  li:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+  }
+  
+  a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+  }
+  
